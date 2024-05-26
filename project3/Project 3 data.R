@@ -5,7 +5,7 @@ library(ggplot2)
 library(dplyr)
 library(maps)
 
-setwd("/Users/linzewen/Downloads/")
+setwd("/Users/Yuanfang/Downloads/")
 
 cases <- read_csv("COVID-19_cases_plus_census.csv")
 
