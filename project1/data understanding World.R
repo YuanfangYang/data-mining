@@ -8,7 +8,7 @@ library(tidyr)
 library(GGally)
 
 # read the global mobility report dataset
-gmr <- read_csv("/Users/linzewen/Downloads/Global_Mobility_Report.csv",
+gmr <- read_csv("/Users/Yuanfang/Downloads/Global_Mobility_Report.csv",
                 col_types =  cols(sub_region_2 = col_character()))
 
 gmr <- gmr |> mutate_if(is.character, factor)
