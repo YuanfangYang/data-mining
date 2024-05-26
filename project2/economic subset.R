@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 
-setwd("/Users/linzewen/Downloads/")
+setwd("/Users/Yuanfang/Downloads/")
 
 # read datasets
 cases <- read_csv("COVID-19_cases_plus_census.csv")
