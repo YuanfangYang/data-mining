@@ -1,5 +1,4 @@
-## Xingya Wang ID: 48739514
-#COVID-19_cases_plus_census.csv
+
 
 install.packages("corrplot")
 install.packages("officer")
