@@ -6,7 +6,7 @@ library(mapdata)
 library(sf)
 library(scales)
 
-setwd("/Users/linzewen/Downloads/")
+setwd("/Users/Yuanfang/Downloads/")
 
 final <- read_csv("final_dataset.csv")
 
